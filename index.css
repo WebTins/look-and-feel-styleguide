@@ -5,7 +5,7 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
-@layer generic {
+@layer generiek {
 
   html, body {
     scroll-behavior: smooth;
