@@ -8,13 +8,13 @@ Wanneer we classes gebruiken waar meerdere woorden in zitten, moeten we "-" gebr
 
 Bijvoorbeeld: $\color{#00FF00}{[class = "artikel-box"]}$
 
-~~ $\color{#FF0000}{[class = "artikelbox"]}$ ~~
+~~$\color{#FF0000}{[class = "artikelbox"]}$~~
 
-~~ $\color{#FF0000}{[class = "ArtikelBox"]}$ ~~
+~~$\color{#FF0000}{[class = "ArtikelBox"]}$~~
 
-~~ $\color{#FF0000}{[class = "artikelBox"]}$ ~~
+~~$\color{#FF0000}{[class = "artikelBox"]}$~~
 
-~~ $\color{#FF0000}{[class = "Arikel-Box"]}$ ~~
+~~$\color{#FF0000}{[class = "Arikel-Box"]}$~~
 
 
 ## Code coventies
