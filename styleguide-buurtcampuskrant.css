@@ -1,62 +1,20 @@
-/* Generieke stijlen voor jullie styleguide
-   Waarschijnlijk hoef je hier niet zoveel voor aan te passen, maar dat mag natuurlijk wel */
-
 /* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
-@layer generiek {
+@layer styleguide {
 
-  html, body {
-    scroll-behavior: smooth;
-  }
+    /* Schrijf hier de verschillende stijlen, die
+       gedeeld gaan worden door jullie projecten */
 
-  body {
-    max-width: 40em;
-    margin: auto;
-    background: #fff;
-  }
-
-  nav:not([class]),
-  h1:not([class]),
-  h2:not([class]),
-  p:not([class]),
-  figcaption:not([class]) {
-    font-family: sans-serif;
-    line-height: 1.5;
-  }
-
-  p:not([class]) > code:not([class]) {
-    display: block;
-  }
-
-  fieldset:not([class]) {
-    margin-block: 1em;
-  }
-
-  nav:not([class]) > a {
-    padding: .5em;
-    border: 1px solid;
-    color: inherit;
-    text-decoration: none;
-    &:hover, &:focus {
-      text-decoration: underline;
+    /* Kleuren */
+    .color-example {
+        background-color: #bada55;
     }
-  }
 
-  figure:not([class]) {
-    display: grid;
-    grid-template-columns: 6rem 1fr;
-    align-items: center;
-    gap: 1rem;
-    margin: 1rem 0;
-    > code {
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      aspect-ratio: 1;
-      background: #ccc;
-    }
-  }
+    /* Typografie */
+
+
+    /* Formulier elementen */
 
 }
