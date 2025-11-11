@@ -51,4 +51,24 @@
 
     /* Formulier elementen */
 
+
+    /* Knoppen elementen */
+    .lees-meer {
+        background-color: var(--torenoranje);
+        color: var(--wit);
+        border: 0px solid #ffffff;
+        border-radius: 100px;
+        padding: 1.5em 3em;   
+        font-weight: 600;
+        cursor: pointer;
+        align-self: flex-start;
+        text-decoration: none;
+    }
+
+    .lees-meer:hover{
+        background-color: var(--Modder);
+        color: white;
+        transform: scale(1.05);
+        transition: transform .1s ease-in-out;
+    }
 }
