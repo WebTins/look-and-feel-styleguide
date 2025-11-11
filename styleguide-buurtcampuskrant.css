@@ -22,7 +22,24 @@
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
-       
+    .oranje{
+        background-color: var(--torenoranje);
+    } 
+    .paars-blauw{
+        background-color: var(--PaarsBlauw);
+    }
+    .mos-groen{
+        background-color: var(--mosgroen);
+    }
+    .zee-blauw{
+        background-color: var(--zee);
+    }
+    .modder-bruin{
+        background-color: var(--Modder);
+    }
+    .lucht-blauw{
+        background-color: var(--lichtblauw);
+    }
 
     /* Kleuren */
     .color-example {
