@@ -22,22 +22,27 @@
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
-    .oranje{
+    .oranje {
         background-color: var(--torenoranje);
     } 
-    .paars-blauw{
+
+    .paars-blauw {
         background-color: var(--PaarsBlauw);
     }
-    .mos-groen{
+
+    .mos-groen {
         background-color: var(--mosgroen);
     }
-    .zee-blauw{
+
+    .zee-blauw {
         background-color: var(--zee);
     }
-    .modder-bruin{
+
+    .modder-bruin {
         background-color: var(--Modder);
     }
-    .lucht-blauw{
+
+    .lucht-blauw {
         background-color: var(--lichtblauw);
     }
 
@@ -49,29 +54,33 @@
     /* Typografie */
     .kop-1 { 
         font-size: 28pt;
-
-
     }
 
 
- .kop-2 { font-size: 18pt ;  }
+    .kop-2 { 
+        font-size: 18pt ;  
+    }
 
+    .kop-3 {
+        font-size: 12pt;
+    }
 
- .kop-3 {font-size: 12pt;}
-
- .kop-4 {font-size: 10pt;}
-
- .kop-5 {font-size: 10pt;}
-
- 
- .kop-6 {font-size: 10pt;}
-    
-    .alinea-teks{
-        line-height: 1.4;
+    .kop-4 {
         font-size: 10pt;
     }
 
+    .kop-5 {
+        font-size: 10pt;
+    }
 
+    .kop-6 {
+        font-size: 10pt;
+    }
+        
+    .alinea-tekst {
+        line-height: 1.4;
+        font-size: 10pt;
+    }
 
     /* Formulier elementen */
 
