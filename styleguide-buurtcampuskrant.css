@@ -6,6 +6,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: "buurtcampus";
+    src: url(./BuurtCampusArial-Bold.woff);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "buurtcampus";
+    color: var(--PaarsBlauw);
+}
+
 :root{
 
     --torenoranje: #EA5B0B;
