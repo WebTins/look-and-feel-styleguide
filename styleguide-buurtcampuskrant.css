@@ -2,10 +2,23 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
+:root{
+
+    --torenoranje: #EA5B0B;
+    --PaarsBlauw: #343567;
+    --mosgroen: #8EA34B;
+    --zee: #085B64;
+    --Modder: #69604F;
+    --luchtblauw:#085B64;
+    --lichtblauw:#B4BDD0;
+}
+
+
 @layer styleguide {
 
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
+       
 
     /* Kleuren */
     .color-example {
@@ -13,6 +26,10 @@
     }
 
     /* Typografie */
+    .typografie{
+
+        font-family: arial;
+    }
 
 
     /* Formulier elementen */
