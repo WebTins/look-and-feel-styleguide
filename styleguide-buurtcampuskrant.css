@@ -16,15 +16,14 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--PaarsBlauw);
 }
 
-:root{
-
-    --torenoranje: #EA5B0B;
-    --PaarsBlauw: #343567;
-    --mosgroen: #8EA34B;
-    --zee: #085B64;
-    --Modder: #69604F;
-    --luchtblauw:#085B64;
-    --lichtblauw:#B4BDD0;
+:root {
+    --torenoranje: hsl(22, 91%, 48%);
+    --PaarsBlauw: hsl(239, 33%, 30%);
+    --mosgroen: hsl(74, 37%, 47%);
+    --zee: hsl(186, 85%, 21%);
+    --Modder: hsl(39, 14%, 36%);
+    --luchtblauw:hsl(186, 85%, 21%);
+    --lichtblauw:hsl(221, 23%, 76%);
 }
 
 
