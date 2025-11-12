@@ -21,19 +21,12 @@ h1,h2,h3,h4,h5,h6 {
     --paarsBlauw: hsl(239, 33%, 30%);
     --mosGroen: hsl(74, 37%, 47%);
     --zee: hsl(186, 85%, 21%);
-<<<<<<< HEAD
-    --modder: hsl(39, 14%, 36%);
-    --luchtBlauw:hsl(186, 85%, 21%);
-    --lichtBlauw:hsl(221, 23%, 76%);
-=======
     --Modder: hsl(39, 14%, 36%);
-    --luchtblauw:hsl(221, 23%, 76%);
+    --luchtBlauw:hsl(221, 23%, 76%);
     --bos-groen: hsl(149, 39%, 25%);
     --gras-groen: hsl(88, 63%, 40%);
     --kauwgom-roze: hsl(23, 88%, 80%);
     --steen-grijs: hsl(32, 10%, 71%);  
-
->>>>>>> ff17893e73fc8b6bb649e8f5a7433f515527d314
 }
 
 
@@ -65,6 +58,22 @@ h1,h2,h3,h4,h5,h6 {
         background-color: var(--lichtBlauw);
     }
 
+    .bos-groen {
+        background-color: var(--bos-groen);
+    }
+
+    .gras-groen {
+        background-color: var(--gras-groen);
+    }
+
+    .kauwgom-roze {
+        background-color: var(--kauwgom-roze);
+    }
+
+    .steen-grijs {
+        background-color: var(--steen-grijs);
+    }
+    
     /* Kleuren */
     .color-example {
         background-color: #bada55;
