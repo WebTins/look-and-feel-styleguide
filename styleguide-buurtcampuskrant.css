@@ -21,12 +21,12 @@ h1,h2,h3,h4,h5,h6 {
     --paarsBlauw: hsl(239, 33%, 30%);
     --mosGroen: hsl(74, 37%, 47%);
     --zee: hsl(186, 85%, 21%);
-    --Modder: hsl(39, 14%, 36%);
+    --modder: hsl(39, 14%, 36%);
     --luchtBlauw:hsl(221, 23%, 76%);
-    --bos-groen: hsl(149, 39%, 25%);
-    --gras-groen: hsl(88, 63%, 40%);
-    --kauwgom-roze: hsl(23, 88%, 80%);
-    --steen-grijs: hsl(32, 10%, 71%);  
+    --bosGroen: hsl(149, 39%, 25%);
+    --grasGroen: hsl(88, 63%, 40%);
+    --kauwgomRoze: hsl(23, 88%, 80%);
+    --steenGrijs: hsl(32, 10%, 71%);  
 }
 
 
