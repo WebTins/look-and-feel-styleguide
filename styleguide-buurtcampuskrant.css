@@ -59,6 +59,22 @@ h1,h2,h3,h4,h5,h6 {
         background-color: var(--lichtblauw);
     }
 
+    .bos-groen {
+        background-color: var(--bos-groen);
+    }
+
+    .gras-groen {
+        background-color: var(--gras-groen);
+    }
+
+    .kauwgom-roze {
+        background-color: var(--kauwgom-roze);
+    }
+
+    .steen-grijs {
+        background-color: var(--steen-grijs);
+    }
+    
     /* Kleuren */
     .color-example {
         background-color: #bada55;
