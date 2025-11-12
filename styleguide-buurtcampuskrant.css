@@ -13,7 +13,7 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "buurtcampus";
-    color: var(--PaarsBlauw);
+    color: var(--paarsBlauw);
 }
 
 :root {
@@ -59,19 +59,19 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .bos-groen {
-        background-color: var(--bos-groen);
+        background-color: var(--bosGroen);
     }
 
     .gras-groen {
-        background-color: var(--gras-groen);
+        background-color: var(--grasGroen);
     }
 
     .kauwgom-roze {
-        background-color: var(--kauwgom-roze);
+        background-color: var(--kauwgomRoze);
     }
 
     .steen-grijs {
-        background-color: var(--steen-grijs);
+        background-color: var(--steenGrijs);
     }
     
     /* Kleuren */
@@ -127,6 +127,6 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .lees-meer:hover {
-        background-color: var(--Modder);
+        background-color: var(--modder);
     }
 }
