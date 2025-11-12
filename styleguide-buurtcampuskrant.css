@@ -80,28 +80,28 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     /* Typografie */
-    .kop-1 { 
+    .heading-1 { 
         font-size: 28pt;
     }
 
 
-    .kop-2 { 
+    .heading-2 { 
         font-size: 18pt ;  
     }
 
-    .kop-3 {
+    .heading-3 {
         font-size: 12pt;
     }
 
-    .kop-4 {
+    .heading-4 {
         font-size: 10pt;
     }
 
-    .kop-5 {
+    .heading-5 {
         font-size: 10pt;
     }
 
-    .kop-6 {
+    .heading-6 {
         font-size: 10pt;
     }
         
