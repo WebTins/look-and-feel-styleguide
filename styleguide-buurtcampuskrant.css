@@ -46,16 +46,16 @@ h1,h2,h3,h4,h5,h6 {
         background-color: var(--mosGroen);
     }
 
-    .zee-blauw {
+    .zee {
         background-color: var(--zee);
     }
 
-    .modder-bruin {
+    .modder {
         background-color: var(--modder);
     }
 
     .lucht-blauw {
-        background-color: var(--lichtBlauw);
+        background-color: var(--luchtBlauw);
     }
 
     .bos-groen {
@@ -82,32 +82,44 @@ h1,h2,h3,h4,h5,h6 {
     /* Typografie */
     .heading-1 { 
         font-size: 28pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
 
     .heading-2 { 
-        font-size: 18pt ;  
+        font-size: 18pt ;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);  
     }
 
     .heading-3 {
         font-size: 12pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-4 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-5 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-6 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
         
     .alinea-tekst {
         line-height: 1.4;
-        font-size: 10pt;
+        font-size: 1em;
     }
 
     /* Formulier elementen */
