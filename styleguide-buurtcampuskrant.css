@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .lucht-blauw {
-        background-color: var(--lichtBlauw);
+        background-color: var(--luchtBlauw);
     }
 
     .bos-groen {
