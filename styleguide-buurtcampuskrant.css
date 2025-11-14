@@ -11,6 +11,11 @@
     src: url(./BuurtCampusArial-Bold.woff);
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: "buurtcampus";
+    color: var(--paarsBlauw);
+}
+
 :root {
     --torenOranje: hsl(22, 91%, 48%);
     --paarsBlauw: hsl(239, 33%, 30%);
