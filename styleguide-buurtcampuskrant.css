@@ -11,11 +11,6 @@
     src: url(./BuurtCampusArial-Bold.woff);
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "buurtcampus";
-    color: var(--paarsBlauw);
-}
-
 :root {
     --torenOranje: hsl(22, 91%, 48%);
     --paarsBlauw: hsl(239, 33%, 30%);
@@ -82,27 +77,39 @@ h1,h2,h3,h4,h5,h6 {
     /* Typografie */
     .heading-1 { 
         font-size: 28pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
 
     .heading-2 { 
-        font-size: 18pt ;  
+        font-size: 18pt ;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);  
     }
 
     .heading-3 {
         font-size: 12pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-4 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-5 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
 
     .heading-6 {
         font-size: 10pt;
+        font-family: "buurtcampus";
+    color: var(--paarsBlauw);
     }
         
     .alinea-tekst {
