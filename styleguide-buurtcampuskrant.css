@@ -134,6 +134,10 @@ h1,h2,h3,h4,h5,h6 {
         height: 1.5em;
         transition: 0.5s;
 
+         &::placeholder {
+                font-style: italic;
+             }
+
         &:focus, &:active {
             outline-color: var(--zee);
             outline-offset: -0.1em;
@@ -153,6 +157,10 @@ h1,h2,h3,h4,h5,h6 {
         height: 1.5em;
         transition: 0.5s;
 
+        &::placeholder {
+                font-style: italic;
+             }
+
         &:focus, &:active {
             outline-color: var(--zee);
             outline-offset: -0.1em;
@@ -160,7 +168,6 @@ h1,h2,h3,h4,h5,h6 {
              height: 2em;
         }
     }
-
 
     /* Knoppen elementen */
     .link-button {
