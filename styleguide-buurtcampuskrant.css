@@ -136,14 +136,15 @@ h1,h2,h3,h4,h5,h6 {
 
          &::placeholder {
                 font-style: italic;
+                padding-left: 3px;
              }
 
-        &:focus, &:active {
-            outline-color: var(--zee);
-            outline-offset: -0.1em;
-            outline-width: 0.5em;
-             height: 2em;
-        }
+            &:focus, &:active {
+                outline-color: var(--zee);
+                outline-offset: -0.1em;
+                outline-width: 0.5em;
+                height: 2em;
+            }
     }
 
     .label-email-input {
@@ -159,14 +160,15 @@ h1,h2,h3,h4,h5,h6 {
 
         &::placeholder {
                 font-style: italic;
+                padding-left: 3px;
              }
 
-        &:focus, &:active {
-            outline-color: var(--zee);
-            outline-offset: -0.1em;
-            outline-width: 0.5em;
-             height: 2em;
-        }
+            &:focus, &:active {
+                outline-color: var(--zee);
+                outline-offset: -0.1em;
+                outline-width: 0.5em;
+                height: 2em;
+            }
     }
 
     /* Knoppen elementen */
