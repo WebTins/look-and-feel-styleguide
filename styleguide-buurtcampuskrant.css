@@ -171,11 +171,11 @@ h6 {
         border-width: 0.2em;
         width:2.75em;
         padding-left: 1.6em;
-        background-image: url("https://assets.codepen.io/274456/ui-icon-search-black.svg");
-	    background-size:1.2em auto;
+        background-image: url("assets/zoek-knop.png");
+	    background-size:1.4em auto;
 	    background-repeat:no-repeat;
-	    background-position:.625em center;
-    	transition:all .2s .3s ease-in, width .5s;
+	    background-position:.550em center;
+    	transition:all .2s .2s ease-in, width.6s;
 
          &::placeholder {
                 font-style: italic;
@@ -204,7 +204,11 @@ h6 {
         border-width: 0.2em;
         height: 1.5em;
         transition: 0.5s;
-        padding-left: 0.5em;
+        padding-left: 2em;
+        background-image: url("assets/mail-knop.png");
+	    background-size:1.4em auto;
+	    background-repeat:no-repeat;
+	    background-position:.550em center;
 
         &::placeholder {
             font-style: italic;
