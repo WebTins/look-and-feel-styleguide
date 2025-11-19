@@ -126,8 +126,41 @@ h6 {
         line-height: 1.4;
         font-size: 1em;
     }
-
+    
     /* Formulier elementen */
+    .inputs{
+        border-radius: 30px; 
+        border-width: 0.2rem;  
+        border-color: var(--torenOranje);
+        border-style: solid;
+        padding-left: 10px;
+    }
+    
+
+    
+    .labels-1{ 
+        
+        font-family: Arial, Helvetica, sans-serif; }
+    
+    .text-area{ 
+        border-radius: 30px ; 
+        border-width: 0.2rem; 
+        border-color: var(--torenOranje);
+        padding-left: 10px;
+    }
+    
+    .labels-textarea{
+       
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    
+        &:active{border-color: var(--zee);}
+    
+    }
+
     .label-search-input {
 
         appearance: none;
