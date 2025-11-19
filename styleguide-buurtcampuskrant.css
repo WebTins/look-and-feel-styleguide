@@ -247,10 +247,10 @@ h6 {
         accent-color: var(--torenOranje);
         cursor: pointer;
     }
-    
+
     /* submit knop */
     .input-submit {
-        background-color: var(--modder);
+        background-color: var(--torenOranje);
         color: #ffffff;
         border: 0 solid #ffffff;
         border-radius: 100px;
@@ -261,8 +261,26 @@ h6 {
         text-decoration: none;
 
         &:hover {
-            background-color: var(--torenOranje);
+            background-color: var(--modder);
             transition: background-color 0.5s;
+        }
+    }
+
+    /* basic button */
+    .knopje {
+        background-color: var(--torenOranje);
+        color: #ffffff;
+        border: 0px solid white;
+        border-radius: 100px;
+        padding: 0.7em 1em;
+        font-weight: 400;
+        cursor: pointer;
+        align-self: flex-start;
+        text-decoration: none;
+        transition: filter 0.6s;
+
+        &:hover {
+            filter: brightness(1.2);
         }
     }
 
@@ -277,9 +295,10 @@ h6 {
         cursor: pointer;
         align-self: flex-start;
         text-decoration: none;
+        transition: filter 0.6s;
 
         &:hover {
-            background-color: var(--modder);
+            filter: brightness(1.2);
         }
     }
 }
