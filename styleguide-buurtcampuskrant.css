@@ -172,11 +172,14 @@ h1,h2,h3,h4,h5,h6 {
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     /* Range slider */
     .label-range-input {
         accent-color: var(--torenOranje);
         cursor: pointer;
 =======
+=======
+>>>>>>> Stashed changes
     /* submit knop */
     .input-submit {
         background-color: var(--modder);
@@ -193,6 +196,9 @@ h1,h2,h3,h4,h5,h6 {
             background-color: var(--torenOranje);
             transition: background-color 0.5s;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
