@@ -182,15 +182,15 @@ h6 {
              }
 
             &:focus, &:active, &:not(:placeholder-shown) {
+                background-image: url("assets/zoek-knop2.png");
                 outline-color: var(--zee);
                 outline-offset: -0.1em;
                 outline-width: 0.5em;
                 height: 2em;
                 width:30%;
 		        background-size:1em auto;
-		        background-position:.475em center;
+		        background-position:.475em center ;
                 transition:all .3s, width .5s;
-                
             }
     }
 
@@ -217,6 +217,7 @@ h6 {
 
         &:focus,
         &:active {
+            background-image: url("assets/mail-knop2.png");
             outline-color: var(--zee);
             outline-offset: -0.1em;
             outline-width: 0.5em;
