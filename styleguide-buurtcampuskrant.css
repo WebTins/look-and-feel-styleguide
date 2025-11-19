@@ -144,20 +144,6 @@ h6 {
 	    background-position:.625em center;
     	transition:all .2s .3s ease-in, width .5s;
 
-<<<<<<< Updated upstream
-        &::placeholder {
-            font-style: italic;
-            padding-left: 3px;
-        }
-
-        &:focus,
-        &:active {
-            outline-color: var(--zee);
-            outline-offset: -0.1em;
-            outline-width: 0.5em;
-            height: 2em;
-        }
-=======
          &::placeholder {
                 font-style: italic;
              }
@@ -173,7 +159,6 @@ h6 {
                 transition:all .3s, width .5s;
                 
             }
->>>>>>> Stashed changes
     }
 
     .label-email-input {
@@ -189,14 +174,9 @@ h6 {
         padding-left: 0.5em;
 
         &::placeholder {
-<<<<<<< Updated upstream
             font-style: italic;
             padding-left: 3px;
         }
-=======
-                font-style: italic;
-             }
->>>>>>> Stashed changes
 
         &:focus,
         &:active {
