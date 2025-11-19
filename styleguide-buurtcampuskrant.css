@@ -178,6 +178,16 @@ h6 {
         }
     }
 
+    .check-box-1, .check-box-2, .check-box-3 {
+        cursor: pointer;
+        
+    }
+
+    input[type=checkbox] {
+        cursor: pointer;
+        accent-color: var(--torenOranje);
+    }
+
     /* Range slider */
     .label-range-input {
         accent-color: var(--torenOranje);
