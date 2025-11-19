@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
     .heading-1 { 
         font-size: 28pt;
         font-family: "buurtcampus";
-    color: var(--paarsBlauw);
+        color: var(--paarsBlauw);
     }
 
 
@@ -169,6 +169,12 @@ h1,h2,h3,h4,h5,h6 {
                 outline-width: 0.5em;
                 height: 2em;
             }
+    }
+
+    /* Range slider */
+    .label-range-input {
+        accent-color: var(--torenOranje);
+        cursor: pointer;
     }
 
     /* Knoppen elementen */
