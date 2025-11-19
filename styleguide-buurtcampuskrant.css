@@ -187,16 +187,18 @@ h6 {
         }
     }
 
+    /* Radio option buttons */
     .option-1, .option-2, .option-3 {
         cursor: pointer;
         
     }
 
-    input[type=radio] {
+        input[type=radio] {
         cursor: pointer;
         accent-color: var(--torenOranje);
     }
 
+    /* Checkbox */
     .check-box-1, .check-box-2, .check-box-3 {
         cursor: pointer;
         
