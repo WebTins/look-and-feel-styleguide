@@ -136,9 +136,15 @@ h6 {
         border-color: var(--torenOranje);
         border-style: solid;
         border-width: 0.2em;
-        height: 1.5em;
-        transition: 0.5s;
+        width:2.75em;
+        padding-left: 1.6em;
+        background-image: url("https://assets.codepen.io/274456/ui-icon-search-black.svg");
+	    background-size:1.2em auto;
+	    background-repeat:no-repeat;
+	    background-position:.625em center;
+    	transition:all .2s .3s ease-in, width .5s;
 
+<<<<<<< Updated upstream
         &::placeholder {
             font-style: italic;
             padding-left: 3px;
@@ -151,6 +157,23 @@ h6 {
             outline-width: 0.5em;
             height: 2em;
         }
+=======
+         &::placeholder {
+                font-style: italic;
+             }
+
+            &:focus, &:active, &:not(:placeholder-shown) {
+                outline-color: var(--zee);
+                outline-offset: -0.1em;
+                outline-width: 0.5em;
+                height: 2em;
+                width:30%;
+		        background-size:1em auto;
+		        background-position:.475em center;
+                transition:all .3s, width .5s;
+                
+            }
+>>>>>>> Stashed changes
     }
 
     .label-email-input {
@@ -163,11 +186,17 @@ h6 {
         border-width: 0.2em;
         height: 1.5em;
         transition: 0.5s;
+        padding-left: 0.5em;
 
         &::placeholder {
+<<<<<<< Updated upstream
             font-style: italic;
             padding-left: 3px;
         }
+=======
+                font-style: italic;
+             }
+>>>>>>> Stashed changes
 
         &:focus,
         &:active {
