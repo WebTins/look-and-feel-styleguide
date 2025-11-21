@@ -22,6 +22,7 @@ h6 {
 }
 
 :root {
+    /* Variabelen kleuren */
     --torenOranje: hsl(22, 91%, 48%);
     --paarsBlauw: hsl(239, 33%, 30%);
     --mosGroen: hsl(74, 37%, 47%);
@@ -32,6 +33,22 @@ h6 {
     --grasGroen: hsl(88, 63%, 40%);
     --kauwgomRoze: hsl(23, 88%, 80%);
     --steenGrijs: hsl(32, 10%, 71%);
+    --primaryAccent: hsl(0, 0%, 100%);
+    --secondaryAccent: hsl(0, 0%, 0%);
+
+    /* Variabelen Typografie */
+    --font-size-h1: 4.5rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1rem;
+    --font-size-p-s: 1rem;
+    --font-size-p-m: 1.3rem;
+    --font-size-p-l: 1.5rem;
+    --font-size-p-xl: 2rem;
+
+    --font-weight-light: 400;
+    --font-weight-normal: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 900;
 }
 
 
