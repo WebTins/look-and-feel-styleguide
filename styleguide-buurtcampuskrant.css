@@ -201,7 +201,6 @@ h6 {
             &:focus, &:active, &:not(:placeholder-shown) {
                 background-image: url("assets/zoek-knop2.png");
                 outline-color: var(--zee);
-                outline-offset: -0.1em;
                 outline-width: 0.5em;
                 height: 2em;
                 width:30%;
