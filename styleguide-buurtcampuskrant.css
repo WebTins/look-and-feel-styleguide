@@ -18,7 +18,6 @@ h4,
 h5,
 h6 {
     font-family: "buurtcampus";
-    color: var(--paarsBlauw);
 }
 
 :root {
@@ -143,39 +142,42 @@ h6 {
         line-height: 1.4;
         font-size: 1em;
     }
-    
+
     /* Formulier elementen */
-    .inputs{
-        border-radius: 30px; 
-        border-width: 0.2rem;  
+    .inputs {
+        border-radius: 30px;
+        border-width: 0.2rem;
         border-color: var(--torenOranje);
         border-style: solid;
         padding-left: 10px;
     }
-    
 
-    
-    .labels-1{ 
-        
-        font-family: Arial, Helvetica, sans-serif; }
-    
-    .text-area{ 
-        border-radius: 30px ; 
-        border-width: 0.2rem; 
+
+
+    .labels-1 {
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-area {
+        border-radius: 30px;
+        border-width: 0.2rem;
         border-color: var(--torenOranje);
         padding-left: 10px;
     }
-    
-    .labels-textarea{
-       
+
+    .labels-textarea {
+
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-       
-    
-        &:active{border-color: var(--zee);}
-    
+
+
+        &:active {
+            border-color: var(--zee);
+        }
+
     }
 
     .label-search-input {
@@ -186,28 +188,30 @@ h6 {
         border-color: var(--torenOranje);
         border-style: solid;
         border-width: 0.2em;
-        width:2.75em;
+        width: 2.75em;
         padding-left: 1.6em;
         background-image: url("assets/zoek-knop.png");
-	    background-size:1.4em auto;
-	    background-repeat:no-repeat;
-	    background-position:.550em center;
-    	transition:all .2s .2s ease-in, width.6s;
+        background-size: 1.4em auto;
+        background-repeat: no-repeat;
+        background-position: .550em center;
+        transition: all .2s .2s ease-in, width.6s;
 
-         &::placeholder {
-                font-style: italic;
-             }
+        &::placeholder {
+            font-style: italic;
+        }
 
-            &:focus, &:active, &:not(:placeholder-shown) {
-                background-image: url("assets/zoek-knop2.png");
-                outline-color: var(--zee);
-                outline-width: 0.9em;
-                height: 1.8em;
-                width:30%;
-		        background-size:1em auto;
-		        background-position:.475em center ;
-                transition:all .3s, width .5s;
-            }
+        &:focus,
+        &:active,
+        &:not(:placeholder-shown) {
+            background-image: url("assets/zoek-knop2.png");
+            outline-color: var(--zee);
+            outline-width: 0.9em;
+            height: 1.8em;
+            width: 30%;
+            background-size: 1em auto;
+            background-position: .475em center;
+            transition: all .3s, width .5s;
+        }
     }
 
     .label-email-input {
@@ -222,9 +226,9 @@ h6 {
         transition: 0.5s;
         padding-left: 2em;
         background-image: url("assets/mail-knop.png");
-	    background-size:1.4em auto;
-	    background-repeat:no-repeat;
-	    background-position:.550em center;
+        background-size: 1.4em auto;
+        background-repeat: no-repeat;
+        background-position: .550em center;
 
         &::placeholder {
             font-style: italic;
@@ -242,20 +246,24 @@ h6 {
     }
 
     /* Radio option buttons */
-    .option-1, .option-2, .option-3 {
+    .option-1,
+    .option-2,
+    .option-3 {
         cursor: pointer;
-        
+
     }
 
-        input[type=radio] {
+    input[type=radio] {
         cursor: pointer;
         accent-color: var(--torenOranje);
     }
 
     /* Checkbox */
-    .check-box-1, .check-box-2, .check-box-3 {
+    .check-box-1,
+    .check-box-2,
+    .check-box-3 {
         cursor: pointer;
-        
+
     }
 
     input[type=checkbox] {
